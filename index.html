@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invie - tus mejores guitarras!!</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/invie.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+</head>
+<body>
+<section id="portada" class="portada background"> <!-- portada -->
+    <header id="header" class="header contenedor"> <!-- header -->
+        <nav class="menu" id="menu"> <!-- menu -->
+            <ul>
+                <li>
+                    <a id="btnUsuario">Usuario actual</a>
+                </li>
+                <li>
+                    <a id="btnRegister" href="" style="display: none">Registrar</a>
+                </li>
+                <li>
+                    <a id="btnLogin" href="" style="display: none">Iniciar sesión</a>
+                </li>
+                <li>
+                    <a id="btnLogout" href="" style="display: none">Cerrar sesión</a>
+                </li>
+                <li>
+                    <a id="btnResetPassword" href="" style="display: none">Restablecer contraseña</a>
+                </li>
+                <li>
+                    <a id="btnUpdateEmail" href="" style="display: none">Actualizar email</a>
+                </li>
+                <li>
+                    <a id="btnUpdatePassword" href="" style="display: none">Actualizar contraseña</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+</section>
+<section id="guitarras" class="contenedor">
+    <form action="" onsubmit="agregarGuitarra()">
+        <input type="text" id="nombre" placeholder="Nombre" autocomplete="off">
+        <input type="text" id="descripcion" placeholder="descripcion">
+        <input type="text" id="tipo" placeholder="tipo">
+        <input type="text" id="precio" placeholder="precio">
+        <input type="file" id="inputImg" placeholder="imagen" accept="image/*">
+        <button type="submit">Agregar</button>
+    </form>
+    <img width="500" src="" id="test">
+</section>
+<section class="tabla datosPerfil" id="datosPerfil">
+    <div class="contenedor">
+        <h1>Tu Perfil</h1>
+        <label for="perfilNombre">Nombre</label>
+        <h3 id="perfilNombre"></h3>
+        <label for="perfilTelefono">Teléfono</label>
+        <h3 id="perfilTelefono"></h3>
+        <label for="perfilDireccion">Direccion</label>
+        <h3 id="perfilDireccion"></h3>
+        <button id="perfilEditar">Editar</button>
+    </div>
+</section>
+<section class="formularioPerfil" onsubmit="editarDatos()" id="formularioPerfil" style="display:none">
+    <div class="contenedor">
+        <h2>Edita tu información</h2>
+        <form action="" name="formPerfil">
+            <div>
+                <label for="nombreForm">Nombre:</label>
+                <input type="text" id="nombreForm" required>
+            </div>
+            <div>
+                <label for="telefonoForm">Teléfono:</label>
+                <input type="text" id="telefonoForm" required>
+            </div>
+            <div>
+                dirección
+            </div>
+            <div>
+                <label for="calleForm">calle:</label>
+                <input type="text" id="calleForm" required>
+            </div>
+            <div>
+                <label for="coloniaForm">colonia:</label>
+                <input type="text" id="coloniaForm" required>
+            </div>
+            <div>
+                <label for="cpForm">Código postal:</label>
+                <input type="text" id="cpForm" required>
+            </div>
+            <button type="button" id="cancelForm">cancelar</button>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</section>
+<section id="guitarrasContent"></section>
+<div id="div"></div>
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-functions.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
+

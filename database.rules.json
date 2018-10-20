@@ -1,0 +1,27 @@
+{
+  "rules": {
+
+    ".write": "root.child('admin').hasChild(auth.uid)",
+    ".read": "root.child('admin').hasChild(auth.uid)",
+
+
+    "usuario": {
+      "$uid": {
+        ".read": "$uid == auth.uid",
+        ".write": "$uid == auth.uid"
+      }
+    },
+
+
+    "guitarras": {
+      "normal": {
+        ".read": true
+      },
+      "vip": {
+        ".read": "root.child('vip').hasChild(auth.uid)"
+      }
+    },
+
+
+  }
+}

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18c37c4-508c-4499-9586-efad1b118378" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="483711165">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="4" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cache" value="3" />
+          <entry key="css" value="5" />
+          <entry key="firebaserc" value="2" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="45" />
+          <entry key="js" value="38" />
+          <entry key="json" value="22" />
+          <entry key="md" value="2" />
+          <entry key="png" value="5" />
+          <entry key="rules" value="1" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="45" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="22" />
+          <entry key="JavaScript" value="38" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cache" value="9" />
+          <entry key="css" value="6" />
+          <entry key="gitignore" value="14" />
+          <entry key="html" value="941" />
+          <entry key="js" value="10017" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="941" />
+          <entry key="JavaScript" value="10017" />
+          <entry key="PLAIN_TEXT" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="222" column="29" lean-forward="true" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+              <folding>
+                <element signature="e#122#400#0" />
+                <element signature="e#2320#2913#0" />
+                <element signature="e#2960#3048#0" />
+                <element signature="e#3096#3689#0" />
+                <element signature="e#3734#4109#0" />
+                <element signature="e#4155#4352#0" />
+                <element signature="e#4405#4754#0" />
+                <element signature="e#4805#5133#0" />
+                <element signature="e#5187#5524#0" />
+                <element signature="e#5573#5662#0" />
+                <element signature="e#5709#5798#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/databse.rules.json" />
+        <option value="$PROJECT_DIR$/js/firebase.js" />
+        <option value="$PROJECT_DIR$/js/fb.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/js/register.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/perfil.html" />
+        <option value="$PROJECT_DIR$/database.rules.json" />
+        <option value="$PROJECT_DIR$/public/admin.html" />
+        <option value="$PROJECT_DIR$/.firebase/hosting..cache" />
+        <option value="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/perfil.html" />
+        <option value="$PROJECT_DIR$/verificacion.html" />
+        <option value="$PROJECT_DIR$/admin.html" />
+        <option value="$PROJECT_DIR$/js/admin.js" />
+        <option value="$PROJECT_DIR$/css/invie.css" />
+        <option value="$PROJECT_DIR$/js/verificacion.js" />
+        <option value="$PROJECT_DIR$/js/perfil.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/@firebase/app-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/app/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/auth-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/auth/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/database-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/database/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/firestore-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/firestore/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/functions-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/functions/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/logger/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/messaging-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/messaging/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/polyfill/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/polyfill/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/storage-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/storage/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/util/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@firebase/webchannel-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ascli/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bytebuffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/colour/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dom-storage/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/app/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/auth/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/database/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/firestore/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/functions/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/messaging/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/firebase/storage/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/detect-libc/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/fs-minipass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/ignore-walk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/minipass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/minizlib/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/needle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/node-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/npm-bundled/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/npm-packlist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/grpc/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/long/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/optjs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/promise-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/protobufjs/examples/protoify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/protobufjs/examples/websocket/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/protobufjs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/websocket-driver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/websocket-extensions/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xmlhttprequest/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/yargs/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
+    <option name="y" value="61" />
+    <option name="width" value="528" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="francoAplicacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="francoAplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="francoAplicacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="francoAplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/(francoAplicacion)" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18c37c4-508c-4499-9586-efad1b118378" name="Default Changelist" comment="" />
+      <created>1536365857833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536365857833</updated>
+      <workItem from="1536365859363" duration="20573000" />
+      <workItem from="1536447130217" duration="4385000" />
+      <workItem from="1536584146488" duration="4142000" />
+      <workItem from="1536594360451" duration="726000" />
+      <workItem from="1536668495478" duration="598000" />
+      <workItem from="1536854284205" duration="2814000" />
+      <workItem from="1536866452142" duration="2274000" />
+      <workItem from="1536870460198" duration="2819000" />
+      <workItem from="1536884968922" duration="386000" />
+      <workItem from="1536927975294" duration="4288000" />
+      <workItem from="1537488665918" duration="9375000" />
+      <workItem from="1537550239667" duration="77000" />
+      <workItem from="1537553722909" duration="10246000" />
+      <workItem from="1537569468222" duration="3883000" />
+      <workItem from="1537707487022" duration="1157000" />
+      <workItem from="1537713380766" duration="22796000" />
+      <workItem from="1538839375705" duration="16866000" />
+      <workItem from="1539007780350" duration="4793000" />
+      <workItem from="1539347960404" duration="1293000" />
+      <workItem from="1539463393872" duration="783000" />
+      <workItem from="1539554789268" duration="1113000" />
+      <workItem from="1540061001242" duration="1778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18416928" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3284553" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18416928" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/responsive-design-curso/slides.html" />
+    <entry file="file://$PROJECT_DIR$/Vista del proyecto/smartphone.png" />
+    <entry file="file://$PROJECT_DIR$/Vista del proyecto/desktop.png" />
+    <entry file="file://$PROJECT_DIR$/images/invie2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/icomoon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive-design-curso/hammer.html" />
+    <entry file="file://$PROJECT_DIR$/responsive-design-curso/invie/precios.html" />
+    <entry file="file://$PROJECT_DIR$/responsive-design-curso/invie/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/media-querie.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/background2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/firebase.js" />
+    <entry file="file://$PROJECT_DIR$/js/fb.js" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/js/register.js" />
+    <entry file="file://$PROJECT_DIR$/register.html" />
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databse.rules.json" />
+    <entry file="file://$PROJECT_DIR$/storage.rules" />
+    <entry file="file://$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" />
+    <entry file="file://$PROJECT_DIR$/.firebase/hosting..cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/invie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/verificacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perfil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/perfil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="222" column="29" lean-forward="true" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+          <folding>
+            <element signature="e#122#400#0" />
+            <element signature="e#2320#2913#0" />
+            <element signature="e#2960#3048#0" />
+            <element signature="e#3096#3689#0" />
+            <element signature="e#3734#4109#0" />
+            <element signature="e#4155#4352#0" />
+            <element signature="e#4405#4754#0" />
+            <element signature="e#4805#5133#0" />
+            <element signature="e#5187#5524#0" />
+            <element signature="e#5573#5662#0" />
+            <element signature="e#5709#5798#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

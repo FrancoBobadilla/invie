@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/invie.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+</head>
+<body class="precios">
+<header id="header" class="header background"> <!-- header -->
+    <div class="contenedor">
+        <figure class="logotipo"> <!-- logotipo -->
+            <img src="images/invie.png" width="186" height="60" alt="Invie logotipo"/>
+        </figure>
+        <span class="burguer-button icon-menu" id="burguer-button"></span>
+        <nav class="menu" id="menu"> <!-- menu -->
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="perfil.html" id="perfilNav">Perfil</a>
+                </li>
+                <li>
+                    <a href="" id="btnLogout">Cerrar sesión</a>
+                </li>
+                <li>
+                    <a href="" id="btnDescargar">Descargar</a>
+                </li>
+                <li>
+                    <a href="" id="btnGuitarras">Guitarras</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="guitarras" class="contenedor">
+    <form action="" onsubmit="nuevaGuitarra()">
+        <input type="text" id="nombre" placeholder="Nombre" autocomplete="off">
+        <input type="text" id="descripcion" placeholder="descripcion">
+        <input type="text" id="tipo" placeholder="tipo">
+        <input type="text" id="precio" placeholder="precio">
+        <input type="file" id="inputImg" placeholder="imagen" accept="image/*">
+        <button type="submit">Agregar</button>
+    </form>
+    <img width="500" id="test">
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-storage.js"></script>
+<script src="js/admin.js"></script>
+<!--<script>
+    var consulta = window.matchMedia('(max-width: 500px)');
+    consulta.addListener(mediaQuery);
+
+    var $burguerButton = document.getElementById('burguer-button');
+    var $menu = document.getElementById('menu');
+
+    function toggleMenu() {
+        $menu.classList.toggle('active')
+    }
+
+    function mediaQuery() {
+        if (consulta.matches) {
+            // si se cumple hagamos esto
+            // console.log('se cumplió la condicion');
+            $burguerButton.addEventListener('touchstart', toggleMenu);
+        } else {
+            $burguerButton.removeEventListener('touchstart', toggleMenu);
+            // si no se cumple hagamos esto
+            // console.log('no se cumplió la condicion');
+        }
+    }
+
+    mediaQuery();
+
+</script>
+!-->
+</body>
+</html>
