@@ -217,7 +217,6 @@ input:focus, textarea:focus {
 .derecha {
   float: right;
   position: relative;
-  top: -127px;
 }
 
 .izquierda {
@@ -386,11 +385,11 @@ input:focus, textarea:focus {
   }
   .guitarras {
     text-align:center;
-  }
+  }/*
   .izquierda, .derecha {
     float: none;
     position: static;
-  }
+  }*/
   .title-b {
     margin: 0;
   }

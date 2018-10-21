@@ -26,23 +26,17 @@ const btnResetPassword = document.getElementById("btnResetPassword");
 const btnUpdateEmail = document.getElementById("btnUpdateEmail");
 const btnUpdatePassword = document.getElementById("btnUpdatePassword");
 const nombre = document.getElementById("nombre");
-const precio = document.getElementById("precio");
-const descripcion = document.getElementById("descripcion");
-const tipo = document.getElementById("tipo");
+const direccion = document.getElementById("direccion");
 const inputImg = document.getElementById("inputImg");
 const datosPerfil = document.getElementById("datosPerfil");
 const perfilNombre = document.getElementById("perfilNombre");
 const perfilTelefono = document.getElementById("perfilTelefono");
-const perfilDireccion = document.getElementById("perfilDireccion");
 const formularioPerfil = document.getElementById("formularioPerfil");
 const perfilEditar = document.getElementById("perfilEditar");
 const cancelForm = document.getElementById("cancelForm");
 const nombreForm = document.getElementById("nombreForm");
 const telefonoForm = document.getElementById("telefonoForm");
-const calleForm = document.getElementById("calleForm");
-const coloniaForm = document.getElementById("coloniaForm");
-const cpForm = document.getElementById("cpForm");
-const guitarrasContent = document.getElementById('guitarrasContent');
+const localesContent = document.getElementById('localesContent');
 
 
 ////////////////////////////////////EVENTOS////////////////////////////////////
@@ -66,7 +60,7 @@ firebase.auth().onAuthStateChanged((usuario) => {
 });
 
 btnUsuario.addEventListener("click", () => {
-    leerGuitarras();
+    leerLocales();
     tirarDatos();
     console.log(firebase.auth().currentUser);
 });
@@ -178,52 +172,55 @@ cancelForm.addEventListener("click", () => {
 
 ////////////////////////////////////FUNCIONES////////////////////////////////////
 
-function leerGuitarras() {
-    refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("guitarras").once('value', (usuario) => {
-        usuario.forEach((datos) => {
-            guitarrasContent.insertBefore(
-                crearElementoGuitarra(datos.key, datos.val().nombre, datos.val().precio, datos.val().tipo, datos.val().descripcion, datos.val().imagen),
-                guitarrasContent.firstChild
+function leerLocales() {
+    refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("locales").once('value', (locales) => {
+        locales.forEach((local) => {
+            localesContent.insertBefore(
+                crearElementoLocal(local.val()),
+                localesContent.firstChild
             )
         });
     })
 }
 
-function crearElementoGuitarra(key, nombre, precio, tipo, descripcion, imagen) {
+function crearElementoLocal(keyLocal) {
     const div = document.getElementById('div');
-    div.innerHTML =
-        '<article class="guitarra contenedor">' +
-        '<img class="derecha" src="" alt="Guitarra Invie Acustica" width="150"/>' +
-        '<div class="contenedor-guitarra-a">' +
-        '<h3 class="title-b">' + nombre + '</h3>' +
-        '<ol>' +
-        '<li class="precio-b">' + precio + '</li>' +
-        '<li class="descripcion-b">' + descripcion + '</li>' +
-        '<li class="descripcion-b">' + tipo + '</li>' +
-        '</ol>' +
-        '</div>' +
-        '</article>';
-    const guitarElement = div.firstChild;
-    let imgURL = "";
-    refStorage.child("guitarras").child(firebase.auth().currentUser.uid).child(key).child(imagen).getDownloadURL().then((url) => {
-        imgURL = url
+    var nombreLocal;
+    var direccionLocal;
+    refDatabase.child("locales").child(keyLocal).once('value', (local) => {
+        nombreLocal = local.val().nombre;
+        direccionLocal = local.val().direccion;
     }).then(() => {
-        guitarElement.getElementsByClassName('derecha')[0].src = imgURL;
+        div.innerHTML =
+            '<article class="guitarra contenedor">' +
+            '<img class="derecha" src="" alt="Guitarra Invie Acustica" width="300"/>' +
+            '<div class="contenedor-guitarra-a">' +
+            '<h3 class="title-b">' + nombreLocal + '</h3>' +
+            '<h3 class="title-b">' + direccionLocal + '</h3>' +
+            '</div>' +
+            '</article>';
+        const localElement = div.firstChild;
+        let imgURL = "";
+        refStorage.child("locales").child(keyLocal).getDownloadURL().then((url) => {
+            imgURL = url
+        }).then(() => {
+            localElement.getElementsByClassName('derecha')[0].src = imgURL;
+        });
+        return localElement;
     });
-    return guitarElement;
 }
 
 
-function agregarGuitarra() {
+function agregarLocal() {
     event.preventDefault();
-    if (nombre.value && descripcion.value && precio.value && inputImg.files[0].name) {
-        refStorage.child("guitarras").child(firebase.auth().currentUser.uid).child(refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("guitarras").push({
-            nombre: nombre.value,
-            descripcion: descripcion.value,
-            tipo: tipo.value,
-            precio: precio.value,
-            imagen: inputImg.files[0].name
-        }).key).child(inputImg.files[0].name).put(inputImg.files[0]);
+    const n = nombre.value;
+    const d = direccion.value;
+    const i = inputImg.files[0].name;
+    if (n && i) {
+        firebase.auth().currentUser.getIdToken(true);
+        const keyLocal = refDatabase.child("locales").push({nombre: n, direccion: d}).key;
+        refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("locales").push(keyLocal);
+        refStorage.child("locales").child(keyLocal).put(inputImg.files[0]);
     } else {
         console.log("faltan completar campos");
     }
@@ -233,7 +230,6 @@ function tirarDatos() {
     refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("personal").on("value", (usuario) => {
         perfilNombre.innerHTML = usuario.val().nombre;
         perfilTelefono.innerHTML = usuario.val().telefono;
-        perfilDireccion.innerHTML = usuario.val().direccion.calle + ", " + usuario.val().direccion.colonia + " " + usuario.val().direccion.cp;
     })
 }
 
@@ -241,12 +237,7 @@ function editarDatos() {
     event.preventDefault();
     refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("personal").update({
         nombre: nombreForm.value,
-        telefono: telefonoForm.value,
-        direccion: {
-            calle: calleForm.value,
-            colonia: coloniaForm.value,
-            cp: cpForm.value
-        }
+        telefono: telefonoForm.value
     });
     datosPerfil.style.display = "block";
     formularioPerfil.style.display = "none";
