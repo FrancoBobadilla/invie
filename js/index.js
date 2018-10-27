@@ -14,6 +14,7 @@ firebase.initializeApp({
 
 const refDatabase = firebase.database().ref();
 const refStorage = firebase.storage().ref();
+const refFirestore = firebase.firestore();
 
 
 ////////////////////////////////////CONSTANTES DE DOCUMENT////////////////////////////////////
@@ -172,28 +173,26 @@ cancelForm.addEventListener("click", () => {
 
 ////////////////////////////////////FUNCIONES////////////////////////////////////
 
+
 function leerLocales() {
-    refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("locales").once('value', (locales) => {
-        locales.forEach((local) => {
-            localesContent.insertBefore(
-                crearElementoLocal(local.val()),
-                localesContent.firstChild
-            )
+    refFirestore.collection("users").doc(firebase.auth().currentUser.uid).collection("ownShops").onSnapshot((querySnapshot) => {
+        querySnapshot.forEach((data) => {
+            crearElementoLocal(data.data().shopKey);
         });
     })
 }
 
-function crearElementoLocal(keyLocal) {
+function crearElementoLocal(shopKey) {
     const div = document.getElementById('div');
     var nombreLocal;
     var direccionLocal;
-    refDatabase.child("locales").child(keyLocal).once('value', (local) => {
-        nombreLocal = local.val().nombre;
-        direccionLocal = local.val().direccion;
+    refFirestore.collection("shops").doc(shopKey).get().then((data) => {
+        nombreLocal = data.data().nombre;
+        direccionLocal = data.data().direccion;
     }).then(() => {
         div.innerHTML =
             '<article class="guitarra contenedor">' +
-            '<img class="derecha" src="" alt="Guitarra Invie Acustica" width="300"/>' +
+            '<img class="derecha" src="" height=248/>' +
             '<div class="contenedor-guitarra-a">' +
             '<h3 class="title-b">' + nombreLocal + '</h3>' +
             '<h3 class="title-b">' + direccionLocal + '</h3>' +
@@ -201,41 +200,51 @@ function crearElementoLocal(keyLocal) {
             '</article>';
         const localElement = div.firstChild;
         let imgURL = "";
-        refStorage.child("locales").child(keyLocal).getDownloadURL().then((url) => {
+        refStorage.child("shops").child(shopKey).getDownloadURL().then((url) => {
             imgURL = url
         }).then(() => {
             localElement.getElementsByClassName('derecha')[0].src = imgURL;
+        }).then(() => {
+            localesContent.insertBefore(
+                localElement,
+                localesContent.firstChild
+            )
         });
-        return localElement;
+
     });
 }
-
 
 function agregarLocal() {
     event.preventDefault();
     const n = nombre.value;
     const d = direccion.value;
     const i = inputImg.files[0].name;
-    if (n && i) {
-        firebase.auth().currentUser.getIdToken(true);
-        const keyLocal = refDatabase.child("locales").push({nombre: n, direccion: d}).key;
-        refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("locales").push(keyLocal);
-        refStorage.child("locales").child(keyLocal).put(inputImg.files[0]);
+    if (n && d && i) {
+        const newShop = refFirestore.collection("shops").doc();
+        newShop.set({
+            nombre: n,
+            direccion: d
+        });
+        refFirestore.collection("users").doc(firebase.auth().currentUser.uid).collection("ownShops").doc(n).set({
+            shopKey: newShop.id
+            // More data that wouldn't appear in the public information of the shop and it would be only visible for admin and owner could be added here
+        });
+        refStorage.child("shops").child(newShop.id).put(inputImg.files[0]);
     } else {
         console.log("faltan completar campos");
     }
 }
 
 function tirarDatos() {
-    refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("personal").on("value", (usuario) => {
-        perfilNombre.innerHTML = usuario.val().nombre;
-        perfilTelefono.innerHTML = usuario.val().telefono;
-    })
+    refFirestore.collection("users").doc(firebase.auth().currentUser.uid).onSnapshot((data) => {
+        perfilNombre.innerHTML = data.data().nombre;
+        perfilTelefono.innerHTML = data.data().telefono;
+    });
 }
 
 function editarDatos() {
     event.preventDefault();
-    refDatabase.child("usuarios").child(firebase.auth().currentUser.uid).child("personal").update({
+    refFirestore.collection("users").doc(firebase.auth().currentUser.uid).set({
         nombre: nombreForm.value,
         telefono: telefonoForm.value
     });

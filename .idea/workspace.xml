@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f18c37c4-508c-4499-9586-efad1b118378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/invie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/invie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
@@ -20,29 +19,31 @@
     <session id="483711165">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="3" />
           <entry key="project.open.time.36" value="4" />
-          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.37" value="3" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.40" value="2" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.40" value="3" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.43" value="3" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cache" value="3" />
-          <entry key="css" value="6" />
+          <entry key="css" value="7" />
           <entry key="firebaserc" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="html" value="45" />
@@ -56,7 +57,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
+          <entry key="CSS" value="7" />
           <entry key="HTML" value="45" />
           <entry key="Image" value="5" />
           <entry key="JSON" value="22" />
@@ -70,15 +71,15 @@
           <entry key="cache" value="9" />
           <entry key="css" value="14" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="980" />
-          <entry key="js" value="10653" />
+          <entry key="html" value="998" />
+          <entry key="js" value="11850" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="980" />
-          <entry key="JavaScript" value="10653" />
+          <entry key="HTML" value="998" />
+          <entry key="JavaScript" value="11850" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -89,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,18 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
-              <folding>
-                <element signature="e#122#400#0" />
-                <element signature="e#3734#4109#0" />
-                <element signature="e#4155#4352#0" />
-                <element signature="e#4405#4754#0" />
-                <element signature="e#4805#5133#0" />
-                <element signature="e#5187#5524#0" />
-                <element signature="e#5573#5662#0" />
-                <element signature="e#5709#5798#0" />
-              </folding>
+            <state relative-caret-position="1054">
+              <caret line="229" column="25" lean-forward="true" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -125,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/invie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3234">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="-5231">
+              <caret line="216" column="1" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -166,8 +157,8 @@
         <option value="$PROJECT_DIR$/js/admin.js" />
         <option value="$PROJECT_DIR$/js/verificacion.js" />
         <option value="$PROJECT_DIR$/js/perfil.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/invie.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
@@ -424,12 +415,18 @@
       <workItem from="1539463393872" duration="783000" />
       <workItem from="1539554789268" duration="1113000" />
       <workItem from="1540061001242" duration="2375000" />
-      <workItem from="1540067135204" duration="7311000" />
+      <workItem from="1540067135204" duration="7356000" />
+      <workItem from="1540134933709" duration="954000" />
+      <workItem from="1540220581521" duration="597000" />
+      <workItem from="1540222093995" duration="136000" />
+      <workItem from="1540560405543" duration="596000" />
+      <workItem from="1540644266101" duration="11194000" />
+      <workItem from="1540661661548" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131324000" />
+    <option name="totallyTimeSpent" value="145190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -585,32 +582,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/invie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3234">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="-5231">
+          <caret line="216" column="1" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
-          <folding>
-            <element signature="e#122#400#0" />
-            <element signature="e#3734#4109#0" />
-            <element signature="e#4155#4352#0" />
-            <element signature="e#4405#4754#0" />
-            <element signature="e#4805#5133#0" />
-            <element signature="e#5187#5524#0" />
-            <element signature="e#5573#5662#0" />
-            <element signature="e#5709#5798#0" />
-          </folding>
+        <state relative-caret-position="1054">
+          <caret line="229" column="25" lean-forward="true" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
